@@ -39,7 +39,7 @@ namespace concessionaria_thiago
             PesquisarPorStatus(carros);
             break;
           case 6:
-            possuiManutencao(carros);
+            adicionarManutencao(carros);
             break;
           case 7:
             venderCarro(carros);
@@ -208,7 +208,7 @@ namespace concessionaria_thiago
       }
     }
 
-    static void possuiManutencao(List<Carro> carros)
+    static void adicionarManutencao(List<Carro> carros)
     {
       Carro carroManutencaoStatus = carros.Find(carro => carro.Status == false);
 
