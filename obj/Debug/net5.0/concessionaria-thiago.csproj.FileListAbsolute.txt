@@ -1,0 +1,16 @@
+/home/tfeliperibeiro/concessionaria-thiago/bin/Debug/net5.0/concessionaria-thiago
+/home/tfeliperibeiro/concessionaria-thiago/bin/Debug/net5.0/concessionaria-thiago.deps.json
+/home/tfeliperibeiro/concessionaria-thiago/bin/Debug/net5.0/concessionaria-thiago.runtimeconfig.json
+/home/tfeliperibeiro/concessionaria-thiago/bin/Debug/net5.0/concessionaria-thiago.runtimeconfig.dev.json
+/home/tfeliperibeiro/concessionaria-thiago/bin/Debug/net5.0/concessionaria-thiago.dll
+/home/tfeliperibeiro/concessionaria-thiago/bin/Debug/net5.0/ref/concessionaria-thiago.dll
+/home/tfeliperibeiro/concessionaria-thiago/bin/Debug/net5.0/concessionaria-thiago.pdb
+/home/tfeliperibeiro/concessionaria-thiago/obj/Debug/net5.0/concessionaria-thiago.csproj.AssemblyReference.cache
+/home/tfeliperibeiro/concessionaria-thiago/obj/Debug/net5.0/concessionaria-thiago.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfeliperibeiro/concessionaria-thiago/obj/Debug/net5.0/concessionaria-thiago.AssemblyInfoInputs.cache
+/home/tfeliperibeiro/concessionaria-thiago/obj/Debug/net5.0/concessionaria-thiago.AssemblyInfo.cs
+/home/tfeliperibeiro/concessionaria-thiago/obj/Debug/net5.0/concessionaria-thiago.csproj.CoreCompileInputs.cache
+/home/tfeliperibeiro/concessionaria-thiago/obj/Debug/net5.0/concessionaria-thiago.dll
+/home/tfeliperibeiro/concessionaria-thiago/obj/Debug/net5.0/ref/concessionaria-thiago.dll
+/home/tfeliperibeiro/concessionaria-thiago/obj/Debug/net5.0/concessionaria-thiago.pdb
+/home/tfeliperibeiro/concessionaria-thiago/obj/Debug/net5.0/concessionaria-thiago.genruntimeconfig.cache
