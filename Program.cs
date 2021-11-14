@@ -203,7 +203,7 @@ namespace concessionaria_thiago
       }
       else
       {
-        Console.WriteLine("Nenhum carro a venda!!");
+        Console.WriteLine("Nenhum carro em estoque para venda!!");
         Console.WriteLine("----------------------");
       }
     }
