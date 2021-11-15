@@ -258,6 +258,7 @@ namespace concessionaria_thiago
       }
     }
 
+    // Validação com ajuda do Renan
     static string validaString(string text)
     {
       string inputText = text;
@@ -270,7 +271,7 @@ namespace concessionaria_thiago
         inputText = Console.ReadLine();
       }
 
-      return result.ToString();
+      return inputText;
     }
   }
 }
