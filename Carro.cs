@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace concessionaria_thiago
 {
   public class Carro
@@ -9,7 +11,7 @@ namespace concessionaria_thiago
     private bool status;
     private int id;
     private Cliente cliente;
-    private Manutencao manutencao;
+    private List<Manutencao> manutencao = new List<Manutencao>();
 
     public string Modelo
     {
@@ -41,7 +43,7 @@ namespace concessionaria_thiago
       get { return cliente; }
       set { cliente = value; }
     }
-    public Manutencao Manutencao
+    public List<Manutencao> Manutencao
     {
       get { return manutencao; }
       set { manutencao = value; }

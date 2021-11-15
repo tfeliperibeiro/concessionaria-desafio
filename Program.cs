@@ -89,11 +89,8 @@ namespace concessionaria_thiago
     {
       if (carros.Count != 0)
       {
-        for (int i = 0; i < carros.Count; i++)
-        {
-          Console.WriteLine(carros[i]);
-          Console.WriteLine("-----------------------");
-        }
+        carros.ForEach(carro => Console.WriteLine(carro));
+        Console.WriteLine("----------------------------");
       }
       else
       {
@@ -251,7 +248,7 @@ namespace concessionaria_thiago
           }
           Carro carroManutencao = carros.Find(carro => carro.Id == Int32.Parse(idCarro));
           Manutencao novaManutencao = new Manutencao(oficina, data, pecasTrocadas);
-          carroManutencao.Manutencao = novaManutencao;
+          carroManutencao.Manutencao.Add(novaManutencao);
         }
       }
       else
