@@ -191,7 +191,7 @@ namespace concessionaria_thiago
           Console.WriteLine("Digite o nome do comprador do carro.");
           string nome = Console.ReadLine();
           Console.WriteLine("Digite o CPF do comprador");
-          string cpf = validaString(Console.ReadLine());
+          string cpf = validaCpf(Console.ReadLine());
           Cliente comprador = new Cliente(nome, cpf);
           carroSelecionado.Status = true;
           carroSelecionado.Cliente = comprador;
@@ -256,6 +256,25 @@ namespace concessionaria_thiago
         Console.WriteLine("Nenhum carro em estoque para adicionar manutenção!!");
         Console.WriteLine("---------------------------------------------------");
       }
+    }
+
+    static string validaCpf(string cpf)
+    {
+      bool isValid = false;
+
+      while (!isValid)
+      {
+        if (cpf.Length != 11)
+        {
+          Console.WriteLine("Digite um CPF válido!!");
+          cpf = Console.ReadLine();
+        }
+        else
+        {
+          isValid = true;
+        }
+      }
+      return cpf;
     }
 
     // Validação com ajuda do Renan
